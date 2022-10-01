@@ -1,0 +1,77 @@
+.drop-down-menu-container {
+  width: 100%;
+  max-width: 240px;
+  min-height: 225px;
+
+  z-index: 2;
+  top: 50;
+  right: 50;
+  position: absolute;
+  background-color: #fdfbf9;
+}
+
+.drop-down-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-down-item {
+  width: 100%;
+  padding: 16px 10px;
+  display: flex;
+}
+
+.drop-down-item:first-child {
+  padding: 16px 12px;
+}
+
+.drop-down-avatar-item:first-child {
+  margin-right: 12px;
+}
+
+.drop-down-icon {
+  fill: #033f47;
+}
+
+.drop-down-avatar-title {
+  font-family: 'Sharp Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: #003d29;
+}
+
+.drop-down-avatar-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+
+  color: #0e924d;
+}
+
+.drop-down-account-link {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-decoration: none;
+
+  color: #003d29;
+
+  display: flex;
+  justify-content: center;
+}
+
+.drop-down-account-icon-box {
+  margin-right: 12px;
+  display: block;
+  align-self: center;
+  height: 16px;
+}
+
+.drop-down-account-icon {
+  fill: #003d29;
+}
