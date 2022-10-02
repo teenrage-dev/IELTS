@@ -119,7 +119,7 @@
 
 .checkbox-text {
   display: block;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -198,6 +198,8 @@
 .form-google-btn {
   width: 100%;
   padding: 18px 17px;
+  border: 1px solid rgba(15, 113, 62, 0.12);
+  border-radius: 4px;
 
   display: flex;
   align-items: center;
@@ -216,6 +218,7 @@
 
 .google-icon-box {
   margin-right: 10px;
+  height: 24px;
 }
 
 .form-text-account {
