@@ -4,3 +4,11 @@
   padding-left: 17px;
   padding-right: 18px;
 }
+
+@media screen and (min-width: 1440px) {
+  .container {
+    min-width: 1440px;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}

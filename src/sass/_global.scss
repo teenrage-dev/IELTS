@@ -257,19 +257,22 @@
     margin-bottom: 55px;
   }
 
+  .form-btn {
+    margin-bottom: 0;
+  }
+
+  .form-google-btn {
+    padding: 0;
+    margin-bottom: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
   .form-checkbox {
     display: flex;
     align-items: center;
     margin-top: 30px;
     max-width: 100%;
     margin-bottom: 30px;
-  }
-
-  .form-btn {
-    margin-bottom: 30px;
-  }
-
-  .form-google-btn {
-    margin-bottom: 35px;
   }
 }
