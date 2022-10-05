@@ -4,7 +4,7 @@
 
 # If you want to see Dropdown Menu Dropdown Menu -> $'./src/partials/drop-down-menu.html' and Delete Class is-hidden
 
-# If you want to see Home Before Registration WebPage you Need -> $'./src/index.html' and Delete Class visually-hidden from here ---> "<include src="./partials/sign-up.html" class="visually-hidden"></include>"
+# If you want to see Home Before Registration WebPage you Need -> $'./src/partials/home-before-reg.html' and Delete <div class='visually-hidden'> with class visually-hidden
 
 This project was created with Parcel. For dating and setting additional features
 [refer to documentation](https://parceljs.org/).

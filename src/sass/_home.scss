@@ -28,6 +28,12 @@
   margin-right: 15px;
 }
 
+.header-box-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .subscribe-btn {
   width: 102px;
   padding-top: 10px;
@@ -55,6 +61,7 @@
 
   .header-box-btns {
     display: flex;
+    flex-direction: row;
   }
 
   .subscribe-btn {
@@ -2207,3 +2214,53 @@
 }
 
 /*  -------------------_________________HOME AFTER REGISTARATION_____________________----------------------------- */
+
+.header-box-icon {
+  margin-left: 5px;
+}
+
+.header-icon {
+  width: 28px;
+  height: 28px;
+  fill: #033f47;
+}
+
+.backgrond-hero-img {
+  background-image: url('../images/hero-after-reg/home-after-reg-hero.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: -69;
+}
+
+@media screen and (min-width: 1440px) {
+  .header-box-icon {
+    margin-top: 0;
+    margin-left: 24px;
+  }
+
+  .header-icon {
+    width: 42px;
+    height: 42px;
+  }
+
+  .hero-after-item {
+    position: relative;
+    height: 100%;
+    min-height: 566px;
+  }
+
+  .backgrond-hero-img {
+    bottom: -74;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .backgrond-hero-img {
+    bottom: -85;
+  }
+}
