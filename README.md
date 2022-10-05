@@ -6,6 +6,8 @@
 
 # If you want to see Home Before Registration WebPage you Need -> $'./src/partials/home-before-reg.html' and Delete <div class='visually-hidden'> with class visually-hidden
 
+# If you want to play a wild css file in the folder "dist"
+
 This project was created with Parcel. For dating and setting additional features
 [refer to documentation](https://parceljs.org/).
 
