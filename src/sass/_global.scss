@@ -43,7 +43,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  color: #004d40;
+  color: var(--PrimaryColorBlueGreenColorWheel);
 }
 
 .custom-input-wrapper .custom-input-label {
@@ -61,7 +61,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  color: #004d40;
+  color: var(--PrimaryColorBlueGreenColorWheel);
 }
 
 .custom-input-wrapper .custom-input-input::-moz-placeholder {
@@ -77,7 +77,7 @@
   padding-top: 10px;
   padding-bottom: 8px;
 
-  background: #fdfbf9;
+  background: var(--WhitePanel);
   border: 1px solid #3c7d7a;
   box-shadow: 0px 0px 0px 2px #07e19a;
   border-radius: 8px;
@@ -148,7 +148,7 @@
   line-height: 1.18;
   text-transform: uppercase;
 
-  color: #fdfbf9;
+  color: var(--WhitePanel);
 
   margin-bottom: 25px;
 }
@@ -182,11 +182,11 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;
-  color: #004d40;
+  color: var(--PrimaryColorBlueGreenColorWheel);
   opacity: 0.6;
 
   height: 100%;
-  background-color: #ffffff;
+  background-color: var(--ClearWhite);
   padding-left: 5px;
   padding-right: 5px;
   position: absolute;
@@ -211,8 +211,7 @@
   line-height: 1.18;
   text-transform: uppercase;
 
-  color: #004d40;
-
+  color: var(--PrimaryColorBlueGreenColorWheel);
   margin-bottom: 17px;
 }
 
